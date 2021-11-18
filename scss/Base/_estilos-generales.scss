@@ -1,0 +1,42 @@
+@import "../Components/variables";
+
+/* To initiate SASS: npm init (enter)  -  sass --watch scss/style.scss css/style.css */
+
+/* REMOVER ESTILOS */
+/* Elemento universal: saco los margin/padding default values */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Scroll whole html */
+html{
+    scroll-behavior: smooth;
+}
+
+/* Remove links style and remove links hover style from bootstap */
+a {
+    color: currentColor; /* set current font color */
+    text-decoration: none; /* no underline */
+
+    &:hover {
+        color: currentColor;
+        text-decoration: none;
+    }
+  }
+
+  button {
+    color: whitesmoke;
+  }
+
+/* Remove default style de las listas */
+ul {
+    list-style-type: none;
+  }
+
+  /* Body */
+body {
+    background-color: $bgc-body;
+    color: $fc-primary;
+}

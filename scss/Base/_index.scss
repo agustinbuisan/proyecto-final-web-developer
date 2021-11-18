@@ -1,0 +1,148 @@
+@import "../Components/variables";
+
+/* HTML: INICIO */
+/* Abro Seccion: Medios de Pago */
+#medios-pagos{
+    font-family: 'lato' ,  sans-serif;
+    font-weight: 300;
+    background-color: $bgc-primary;
+    color: $fc-secondary;
+
+    h5{
+        font-size: 1.3em;
+
+        @media screen and (min-width:577px) and (max-width:992px){
+            font-size: 1em;
+        }
+
+        @media screen and (max-width:576px){
+            font-size: 0.6em;
+        }
+    }
+
+    p{ 
+        @media screen and (min-width:577px) and (max-width:992px){
+            font-size: 0.8em;}
+
+        @media screen and (max-width:576px){
+            font-size: 0.5em;
+            }
+        
+    }
+}
+/* Cierro Seccion: Medios de Pago */
+
+/* Abro Seccion: Productos */
+.productos-contenedor{
+    &:hover{
+    transform: scale(1.01);
+    transition: all 0.3s;
+    }
+
+        .nombre-productos{
+            font-family: 'lato' ,  sans-serif;
+            font-weight: 300;
+            font-size: 1.3em;
+            border: solid 0.15em $fc-primary;
+            border-radius: 0.3em;
+
+                @media screen and (min-width:577px) and (max-width:992px) {
+                    font-size: 1em;   
+                }
+
+                @media screen and (max-width:576px) {
+                    font-size: 0.7em;
+                    }
+        }
+}
+/* Cierro Seccion: Productos */
+
+/* Abro Seccion: Nuestros locales */
+#nuestros-locales-contenedor{
+    font-family: 'lato' ,  sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    background-color: $bgc-secondary;
+    color: $fc-secondary;
+    height: 8.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        .nuestros-locales{
+            font-size: 1.5em;
+            border: solid 0.15em $bgc-primary;
+            border-radius: 0.5em;
+
+            &:hover{
+                background-color: rgba(55, 63, 71, 0.37);
+                transform: scale(1.05);
+                transition: all 0.5s;
+            }
+
+            @media screen and (min-width:577px) and (max-width:992px) {
+                font-size: 1em;
+            }
+
+            @media screen and (max-width:576px) {
+                font-size: 0.7em;
+            }
+    }
+
+    @media screen and (min-width:577px) and (max-width:992px) {
+        height: 6.5em;
+    }
+
+    @media screen and (max-width:576px) {
+            height: 4.5em;
+    }
+}
+/* Cierro Seccion: Nuestros locales */
+
+/* Abro Seccion: Contactanos */
+#contactanos{
+    font-family: 'lato' ,  sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    background-color: $bgc-primary;
+    color: $fc-secondary;
+    height: 8.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    nav{
+        border: solid 0.15em $fc-secondary;
+        border-radius: 0.5em;
+
+        &:hover{
+            background-color: rgba(245, 245, 245, 0.123);
+            transform: scale(1.05);
+            transition: all 0.5s;
+        }
+
+        p{
+            display: inline;
+            font-size: 1.5em;
+
+            @media screen and (min-width:577px) and (max-width:992px) {
+                font-size: 1em;
+            }
+
+            @media screen and (max-width:576px) {
+                font-size: 0.7em;
+            }
+
+        }
+    }
+
+    @media screen and (min-width:577px) and (max-width:992px) {
+        height: 6.5em;
+    }
+
+    @media screen and (max-width:576px) {
+            height: 4.5em;
+    }
+
+}
+/* Cierro Seccion: Contactanos */

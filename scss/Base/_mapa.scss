@@ -1,0 +1,71 @@
+@import "../Components/variables";
+
+@mixin sizes($f-style, $f-weight, $f-size) {
+        font-style: $f-style;
+        font-weight: $f-weight;
+        font-size: $f-size;
+}
+
+.mapa-contenedor{
+    height: 75vh;
+
+    .mapa-iframe{
+        border: solid $fc-primary 0.15em;
+        border-radius: 0.5em;
+    }
+    
+    .mapa-items{
+        border: solid $fc-primary 0.15em;
+        border-radius: nth($list: $fs-general, $n:1 );
+    
+        &:hover{
+            background-color: rgba(55, 63, 71, 0.37);
+            transform: scale(1.05);
+            transition: all 0.5s;
+        }
+    
+        .titulo-local{
+            font-family: 'lato' ,  sans-serif;
+            @include sizes(normal, 400, nth($list: $fs-general, $n:1) * 1.3);
+    
+            @media screen and (min-width:993px) and (max-width:1200px) {
+                font-size: nth($list: $fs-general, $n:1);
+            }
+    
+            @media screen and (min-width:769px) and (max-width:992px) {
+                font-size: nth($list: $fs-general, $n:1 )*0.8;
+            }
+    
+            @media screen and (min-width:577px) and (max-width:768px) {
+                font-size: nth($list: $fs-general, $n:1 )*0.6;
+            }
+    
+            @media screen and (max-width:576px) {
+                font-size: nth($list: $fs-general, $n:1 )*0.5;
+            } 
+        }
+    
+        .subtitulo-local{
+            font-family: 'lato' ,  sans-serif;
+            @include sizes(italic, 300, nth($list: $fs-general, $n:1));
+    
+            @media screen and (min-width:993px) and (max-width:1200px) {
+                font-size: 0.8em;
+            }
+    
+            @media screen and (min-width:769px) and (max-width:992px) {
+                font-size: 0.6em;
+            }
+    
+            @media screen and (min-width:577px) and (max-width:768px) {
+                font-size: 0.45em;
+            }
+    
+            @media only screen and (max-width:576px) {
+                font-size: 0.35em;
+            }  
+        }
+    }
+
+}
+

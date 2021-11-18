@@ -1,0 +1,513 @@
+/* To initiate SASS: npm init (enter)  -  sass --watch scss/style.scss css/style.css */
+/* Import .scss files */
+/* Background Colors */
+/* Fonts Colors */
+/* Font Sizes */
+/* Background Colors */
+/* Fonts Colors */
+/* Font Sizes */
+/* To initiate SASS: npm init (enter)  -  sass --watch scss/style.scss css/style.css */
+/* REMOVER ESTILOS */
+/* Elemento universal: saco los margin/padding default values */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Scroll whole html */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove links style and remove links hover style from bootstap */
+a {
+  color: currentColor;
+  /* set current font color */
+  text-decoration: none;
+  /* no underline */
+}
+a:hover {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  color: whitesmoke;
+}
+
+/* Remove default style de las listas */
+ul {
+  list-style-type: none;
+}
+
+/* Body */
+body {
+  background-color: #fffcf8;
+  color: #373f47;
+}
+
+/* Abro Header */
+.salvaje-header {
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  /* background-color: rgba(111, 111, 113); */
+  background-color: #373f47;
+  color: whitesmoke;
+}
+.salvaje-header .salvaje-logo {
+  font-family: "lato", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  /* font-size: 3em; */
+  color: whitesmoke;
+  text-shadow: 0.25em 0.25em 0.25em rgba(55, 63, 71, 0.486);
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+.salvaje-header .titulo-menu:hover {
+  transform: scale(1.15) translateY(-0.1em);
+  text-shadow: 0.1em 0em 0.1em whitesmoke;
+  transition: all 0.3s;
+}
+
+/* Cierro Header */
+/* Background Colors */
+/* Fonts Colors */
+/* Font Sizes */
+/* Abro Footer */
+footer {
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.25em;
+  background-color: #373f47;
+  color: whitesmoke;
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  footer .footer-logo-container {
+    margin: 1.2em 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer .footer-logo-container {
+    margin: 0.8em 0;
+  }
+}
+footer .container-logo {
+  width: 4.7em;
+  height: auto;
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  footer .container-logo {
+    width: 4.1em;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  footer .container-logo {
+    width: 3.5em;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  footer .container-logo {
+    width: 3em;
+  }
+}
+@media screen and (max-width: 576px) {
+  footer .container-logo {
+    width: 2em;
+  }
+}
+footer h2 {
+  font-family: "lato", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 3.4em;
+  color: whitesmoke;
+  text-shadow: 0.25em 0.25em 0.25em rgba(55, 63, 71, 0.486);
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  footer h2 {
+    font-size: 2.5em;
+    letter-spacing: 0.2em;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  footer h2 {
+    font-size: 2.3em;
+    letter-spacing: 0.2em;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  footer h2 {
+    font-size: 1.9em;
+    letter-spacing: 0.18em;
+  }
+}
+@media screen and (max-width: 576px) {
+  footer h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.15em;
+  }
+}
+footer .footer-titulos {
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  footer .footer-titulos {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  footer .footer-titulos {
+    font-size: 0.7em;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  footer .footer-titulos {
+    font-size: 0.6em;
+    margin-top: 2em;
+  }
+}
+@media screen and (max-width: 576px) {
+  footer .footer-titulos {
+    font-size: 0.5em;
+    margin-top: 2em;
+  }
+}
+footer .footer-contenido {
+  font-family: "lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  footer .footer-contenido {
+    font-size: 0.8em;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  footer .footer-contenido {
+    font-size: 0.6em;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  footer .footer-contenido {
+    font-size: 0.5em;
+  }
+}
+@media screen and (max-width: 576px) {
+  footer .footer-contenido {
+    font-size: 0.5em;
+  }
+}
+
+/* Cierro Footer */
+/* Background Colors */
+/* Fonts Colors */
+/* Font Sizes */
+/* HTML: INICIO */
+/* Abro Seccion: Medios de Pago */
+#medios-pagos {
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  background-color: #373f47;
+  color: whitesmoke;
+}
+#medios-pagos h5 {
+  font-size: 1.3em;
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  #medios-pagos h5 {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 576px) {
+  #medios-pagos h5 {
+    font-size: 0.6em;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  #medios-pagos p {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 576px) {
+  #medios-pagos p {
+    font-size: 0.5em;
+  }
+}
+
+/* Cierro Seccion: Medios de Pago */
+/* Abro Seccion: Productos */
+.productos-contenedor:hover {
+  transform: scale(1.01);
+  transition: all 0.3s;
+}
+.productos-contenedor .nombre-productos {
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  border: solid 0.15em #373f47;
+  border-radius: 0.3em;
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .productos-contenedor .nombre-productos {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 576px) {
+  .productos-contenedor .nombre-productos {
+    font-size: 0.7em;
+  }
+}
+
+/* Cierro Seccion: Productos */
+/* Abro Seccion: Nuestros locales */
+#nuestros-locales-contenedor {
+  font-family: "lato", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  background-color: rgba(55, 63, 71, 0.37);
+  color: whitesmoke;
+  height: 8.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nuestros-locales-contenedor .nuestros-locales {
+  font-size: 1.5em;
+  border: solid 0.15em #373f47;
+  border-radius: 0.5em;
+}
+#nuestros-locales-contenedor .nuestros-locales:hover {
+  background-color: rgba(55, 63, 71, 0.37);
+  transform: scale(1.05);
+  transition: all 0.5s;
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  #nuestros-locales-contenedor .nuestros-locales {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 576px) {
+  #nuestros-locales-contenedor .nuestros-locales {
+    font-size: 0.7em;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  #nuestros-locales-contenedor {
+    height: 6.5em;
+  }
+}
+@media screen and (max-width: 576px) {
+  #nuestros-locales-contenedor {
+    height: 4.5em;
+  }
+}
+
+/* Cierro Seccion: Nuestros locales */
+/* Abro Seccion: Contactanos */
+#contactanos {
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  background-color: #373f47;
+  color: whitesmoke;
+  height: 8.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contactanos nav {
+  border: solid 0.15em whitesmoke;
+  border-radius: 0.5em;
+}
+#contactanos nav:hover {
+  background-color: rgba(245, 245, 245, 0.123);
+  transform: scale(1.05);
+  transition: all 0.5s;
+}
+#contactanos nav p {
+  display: inline;
+  font-size: 1.5em;
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  #contactanos nav p {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 576px) {
+  #contactanos nav p {
+    font-size: 0.7em;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  #contactanos {
+    height: 6.5em;
+  }
+}
+@media screen and (max-width: 576px) {
+  #contactanos {
+    height: 4.5em;
+  }
+}
+
+/* Cierro Seccion: Contactanos */
+/* Background Colors */
+/* Fonts Colors */
+/* Font Sizes */
+/* Abro seccion: imagen y titulo */
+#coleccion-titulo {
+  height: 50vh;
+  background-image: url("../Multimedia/Imagenes/Remeras-coleccion.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#coleccion-titulo h3 {
+  font-family: "lato", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  #coleccion-titulo h3 {
+    font-size: 3.6em;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  #coleccion-titulo h3 {
+    font-size: 3em;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  #coleccion-titulo h3 {
+    font-size: 2.5em;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #coleccion-titulo h3 {
+    font-size: 1.8em;
+  }
+}
+
+/* cierro seccion: imagen y titulo */
+.descripcion-productos {
+  font-family: "lato", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.4em;
+  border: solid #373f47 0.15em;
+  border-radius: 0.5em;
+  text-align: center;
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .descripcion-productos {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .descripcion-productos {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .descripcion-productos {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .descripcion-productos {
+    font-size: 0.6em;
+  }
+}
+
+/* Background Colors */
+/* Fonts Colors */
+/* Font Sizes */
+.mapa-contenedor {
+  height: 75vh;
+}
+.mapa-contenedor .mapa-iframe {
+  border: solid #373f47 0.15em;
+  border-radius: 0.5em;
+}
+.mapa-contenedor .mapa-items {
+  border: solid #373f47 0.15em;
+  border-radius: 1em;
+}
+.mapa-contenedor .mapa-items:hover {
+  background-color: rgba(55, 63, 71, 0.37);
+  transform: scale(1.05);
+  transition: all 0.5s;
+}
+.mapa-contenedor .mapa-items .titulo-local {
+  font-family: "lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .mapa-contenedor .mapa-items .titulo-local {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .mapa-contenedor .mapa-items .titulo-local {
+    font-size: 0.8em;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .mapa-contenedor .mapa-items .titulo-local {
+    font-size: 0.6em;
+  }
+}
+@media screen and (max-width: 576px) {
+  .mapa-contenedor .mapa-items .titulo-local {
+    font-size: 0.5em;
+  }
+}
+.mapa-contenedor .mapa-items .subtitulo-local {
+  font-family: "lato", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1em;
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .mapa-contenedor .mapa-items .subtitulo-local {
+    font-size: 0.8em;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .mapa-contenedor .mapa-items .subtitulo-local {
+    font-size: 0.6em;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .mapa-contenedor .mapa-items .subtitulo-local {
+    font-size: 0.45em;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .mapa-contenedor .mapa-items .subtitulo-local {
+    font-size: 0.35em;
+  }
+}
+
+.agus-sass, .agustin-sass {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: cadetblue;
+}
+
+.agustin-sass {
+  text-decoration: underline;
+  border: chocolate solid 0.1em;
+}
+
+/*# sourceMappingURL=style.css.map */

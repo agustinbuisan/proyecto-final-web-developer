@@ -1,0 +1,13 @@
+
+.agus-sass{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: cadetblue;
+
+}
+
+.agustin-sass{
+    @extend .agus-sass;
+    text-decoration: underline;
+    border: chocolate solid 0.1em;
+}

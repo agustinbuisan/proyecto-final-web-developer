@@ -1,0 +1,13 @@
+/* To initiate SASS: npm init (enter)  -  sass --watch scss/style.scss css/style.css */
+
+/* Import .scss files */
+@import "Components/variables";
+@import "Base/estilos-generales";
+@import "Base/header";
+@import "Base/footer";
+@import "Base/index";
+@import "Base/coleccion";
+@import "Base/mapa";
+@import "Base/preguntas-frecuentes";
+
+
