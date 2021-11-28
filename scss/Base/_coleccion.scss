@@ -3,6 +3,7 @@
 /* Abro seccion: imagen y titulo */
 #coleccion-titulo{
     height: 50vh;
+    width: auto;
     background-image: url('../Multimedia/Imagenes/Remeras-coleccion.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,5 +59,25 @@
 
     @media only screen and (max-width:576px) {
         font-size: nth($list: $fs-general, $n:1 )*0.6;
+    }  
+}
+
+.salvaje-img{
+    width: 260px;
+
+    @media screen and (min-width:993px) and (max-width:1200px) {
+        width: 220px;
+    }
+
+    @media screen and (min-width:769px) and (max-width:992px) {
+        width: 170px;
+    }
+
+    @media screen and (min-width:577px) and (max-width:768px) {
+        width: 150px;
+    }
+
+    @media only screen and (max-width:576px) {
+        width: 120px;
     }  
 }

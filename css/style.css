@@ -299,12 +299,12 @@ footer .footer-contenido {
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
   #nuestros-locales-contenedor {
-    height: 6.5em;
+    height: 5.5em;
   }
 }
 @media screen and (max-width: 576px) {
   #nuestros-locales-contenedor {
-    height: 4.5em;
+    height: 4em;
   }
 }
 
@@ -362,6 +362,7 @@ footer .footer-contenido {
 /* Abro seccion: imagen y titulo */
 #coleccion-titulo {
   height: 50vh;
+  width: auto;
   background-image: url("../Multimedia/Imagenes/Remeras-coleccion.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -427,6 +428,30 @@ footer .footer-contenido {
   }
 }
 
+.salvaje-img {
+  width: 260px;
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .salvaje-img {
+    width: 220px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .salvaje-img {
+    width: 170px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .salvaje-img {
+    width: 150px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .salvaje-img {
+    width: 120px;
+  }
+}
+
 /* Background Colors */
 /* Fonts Colors */
 /* Font Sizes */
@@ -442,7 +467,7 @@ footer .footer-contenido {
   border-radius: 1em;
 }
 .mapa-contenedor .mapa-items:hover {
-  background-color: rgba(55, 63, 71, 0.37);
+  background-color: rgba(55, 63, 71, 0.247);
   transform: scale(1.05);
   transition: all 0.5s;
 }

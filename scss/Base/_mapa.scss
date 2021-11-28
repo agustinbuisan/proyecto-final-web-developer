@@ -19,7 +19,7 @@
         border-radius: nth($list: $fs-general, $n:1 );
     
         &:hover{
-            background-color: rgba(55, 63, 71, 0.37);
+            background-color: rgba(55, 63, 71, 0.247);
             transform: scale(1.05);
             transition: all 0.5s;
         }
