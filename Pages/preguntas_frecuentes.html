@@ -121,28 +121,27 @@
     <!-- Cierro HEADER -->
 
     <!-- Abro seccion con formulario -->
-    <section>
+    <section class="salvaje-section-form-container d-flex align-items-center justify-content-center">
+            <form class="salvaje-form-container py-3">
+                <h4 class="text-center"> ¡Mandanos tu consulta! </h4>
 
-        <!-- Aca va el formulario para submitir preguntas -->
+                <fieldset>
+                    <legend> Datos </legend>
+                    <input type="text" name="Nombre" placeholder="Nombre">
+                    <input type="text" name="Apellido" placeholder="Apellido">
+                    <input type="tel" name="Telefono" placeholder="Teléfono">
+                    <input type="email" name="Mail" placeholder="xxx@salvajeclothe.com" required="">
+                </fieldset>
 
+                <fieldset>
+                    <legend> Consulta </legend>
+                    <textarea name="consulta-cliente" placeholder="Escriba aquí su consulta" required=""></textarea>
+                </fieldset>
+
+                <div class="d-flex justify-content-center"> <input class="salvaje-form-button px-2 py-1" type="submit"> </div>
+            </form>
     </section>
     <!-- Cierro seccion con formulario -->
-
-    <!-- Abro seccion para aplicar Extend -->
-    <section>
-        <div class="row">
-            <div class="col-9">
-                <p class="agus-sass"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis praesentium
-                    necessitatibus consectetur minima. Dolorum architecto, reiciendis error
-                    deleniti alias excepturi saepe eligendi aliquam mollitia nostrum fugit tempora,
-                    odio delectus minus.</p>
-            </div>
-            <div class="col-3">
-                <h1 class="agustin-sass"> Mi header </h1>
-            </div>
-        </div>
-    </section>
-    <!-- Cierro seccion para aplicar Extend -->
 
     <!-- Abro FOOTER: va a contener lo mismo para todas mis sub-paginas-->
     <footer>

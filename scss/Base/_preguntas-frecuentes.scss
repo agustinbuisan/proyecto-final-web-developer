@@ -1,13 +1,26 @@
+@import "../Components/variables";
 
-.agus-sass{
-    font-size: 2.5em;
-    text-transform: uppercase;
-    color: cadetblue;
+.salvaje-section-form-container{
+    height:78vh;
+    font-family: 'lato' ,  sans-serif;
 
-}
+    .salvaje-form-container{
+        background-color: $bgc-secondary;
+        color: $fc-secondary;
+        border: solid 0.15em $bgc-primary;
+        border-radius: 0.5em;
+        font-style: italic;
 
-.agustin-sass{
-    @extend .agus-sass;
-    text-decoration: underline;
-    border: chocolate solid 0.1em;
+        h4, legend{
+            font-weight: 400;
+        }
+
+        .salvaje-form-button{
+            font-family: 'lato' ,  sans-serif;
+            font-weight: 300;
+            background-color: $bgc-primary;
+            border-radius: 0.5em;
+            color: $fc-secondary; 
+        }
+    }
 }

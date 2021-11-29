@@ -209,6 +209,28 @@ footer .footer-contenido {
 /* Fonts Colors */
 /* Font Sizes */
 /* HTML: INICIO */
+/* Abro Seccion: legend */
+/* Cierro Seccion: legend */
+.salvaje-legend {
+  font-family: "lato", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  color: #373f47;
+}
+.salvaje-legend h1 {
+  font-size: 1.2em;
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .salvaje-legend h1 {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 576px) {
+  .salvaje-legend h1 {
+    font-size: 0.8em;
+  }
+}
+
 /* Abro Seccion: Medios de Pago */
 #medios-pagos {
   font-family: "lato", sans-serif;
@@ -524,15 +546,29 @@ footer .footer-contenido {
   }
 }
 
-.agus-sass, .agustin-sass {
-  font-size: 2.5em;
-  text-transform: uppercase;
-  color: cadetblue;
+/* Background Colors */
+/* Fonts Colors */
+/* Font Sizes */
+.salvaje-section-form-container {
+  height: 78vh;
+  font-family: "lato", sans-serif;
 }
-
-.agustin-sass {
-  text-decoration: underline;
-  border: chocolate solid 0.1em;
+.salvaje-section-form-container .salvaje-form-container {
+  background-color: rgba(55, 63, 71, 0.37);
+  color: whitesmoke;
+  border: solid 0.15em #373f47;
+  border-radius: 0.5em;
+  font-style: italic;
+}
+.salvaje-section-form-container .salvaje-form-container h4, .salvaje-section-form-container .salvaje-form-container legend {
+  font-weight: 400;
+}
+.salvaje-section-form-container .salvaje-form-container .salvaje-form-button {
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  background-color: #373f47;
+  border-radius: 0.5em;
+  color: whitesmoke;
 }
 
 /*# sourceMappingURL=style.css.map */
