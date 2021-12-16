@@ -162,18 +162,18 @@ footer .footer-titulos {
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
   footer .footer-titulos {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
   footer .footer-titulos {
-    font-size: 0.6em;
+    font-size: 0.7em;
     margin-top: 2em;
   }
 }
 @media screen and (max-width: 576px) {
   footer .footer-titulos {
-    font-size: 0.5em;
+    font-size: 0.68em;
     margin-top: 2em;
   }
 }
@@ -190,17 +190,12 @@ footer .footer-contenido {
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
   footer .footer-contenido {
-    font-size: 0.6em;
+    font-size: 0.7em;
   }
 }
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   footer .footer-contenido {
-    font-size: 0.5em;
-  }
-}
-@media screen and (max-width: 576px) {
-  footer .footer-contenido {
-    font-size: 0.5em;
+    font-size: 0.68em;
   }
 }
 
@@ -248,17 +243,17 @@ footer .footer-contenido {
 }
 @media screen and (max-width: 576px) {
   #medios-pagos h5 {
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
   #medios-pagos p {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 }
 @media screen and (max-width: 576px) {
   #medios-pagos p {
-    font-size: 0.5em;
+    font-size: 0.8em;
   }
 }
 
@@ -282,7 +277,7 @@ footer .footer-contenido {
 }
 @media screen and (max-width: 576px) {
   .productos-contenedor .nombre-productos {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 }
 
@@ -316,7 +311,7 @@ footer .footer-contenido {
 }
 @media screen and (max-width: 576px) {
   #nuestros-locales-contenedor .nuestros-locales {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -363,7 +358,7 @@ footer .footer-contenido {
 }
 @media screen and (max-width: 576px) {
   #contactanos nav a {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -569,6 +564,10 @@ footer .footer-contenido {
   background-color: #373f47;
   border-radius: 0.5em;
   color: whitesmoke;
+}
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
